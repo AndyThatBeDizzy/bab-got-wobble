@@ -1658,6 +1658,7 @@
     "layer": 11,
     "color": [[0, 1]],
     "rotate": true,
+    "wobble": true,
     "features": {
       "sans": {"x": 22, "y": 10, "w": 2, "h": 2}
     },
