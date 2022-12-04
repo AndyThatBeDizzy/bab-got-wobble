@@ -971,7 +971,7 @@ function scene.draw(dt)
       unit.color_override = newcolor
     end
     
-    local wobble_suffix = unit.wobble and ("_" .. (unit.frame + anim_stage) % 3 + 1) or ""
+    local wobble_suffix = ("_" .. (unit.frame + anim_stage) % 3 + 1) or ""
     local sprite = sprites[unit.sprite[1]]
 
     --no tweening empty for now - it's buggy!
@@ -994,9 +994,9 @@ function scene.draw(dt)
         end
       else
         local palette = current_palette
-        if current_palette == "default" and unit.wobble then
+        --[[if current_palette == "default" and unit.wobble then
           palette = "baba"
-        end
+        end]]
 				color = {getPaletteColor(color[1], color[2], palette)}
 			end
 
