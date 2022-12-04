@@ -4209,7 +4209,7 @@ function getTileSprite(name, tile, o)
       addTry(try, "?_slep", true)
     end
 
-    if tile.wobble then
+    if 1 == 1 then
       local wobble_frame = anim_stage % 3 + 1
       addTry(try, "?_"..wobble_frame, true)
     end
