@@ -5,7 +5,6 @@
     "layer": 11,
     "color": [[0, 3]],
     "rotate": true,
-    "wobble": true,
     "features": {
       "sans": {"x": 22, "y": 10, "w": 2, "h": 2}
     },
@@ -20,7 +19,6 @@
     "metasprite": ["txt/bab meta"],
     "types": ["object"],
     "color": [[4, 1]],
-    "wobble": true,
     "desc": "\"BAB\". thats what it says",
     "tags": ["chars", "baba"]
   },
@@ -59,7 +57,6 @@
     "sprite": ["keek"],
     "layer": 11,
     "color": [[2, 2]],
-    "wobble": true,
     "rotate": true,
     "features": {
       "sans": {"x": 19, "y": 7, "w": 2, "h": 2}
@@ -1658,7 +1655,6 @@
     "layer": 11,
     "color": [[0, 1]],
     "rotate": true,
-    "wobble": true,
     "features": {
       "sans": {"x": 22, "y": 10, "w": 2, "h": 2}
     },
