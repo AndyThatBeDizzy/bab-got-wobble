@@ -4,6 +4,7 @@
     "sprite": ["txt/be"],
     "types": ["verb_class", "verb_property", "verb"],
     "color": [[0, 3]],
+    "wobble": true,
     "desc": "BE (Verb): Causes the subject to become an object or have a property.\nAnti: mirror",
     "tags": ["is"]
   },
