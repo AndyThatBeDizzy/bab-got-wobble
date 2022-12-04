@@ -4,6 +4,7 @@
     "sprite": ["txt/u"],
     "types": ["property"],
     "color": [[4, 1]],
+    "wobble": true,
     "desc": "U: Controlled by you, the player!\nAnti: opposite direction",
     "tags": ["you", "p1", "player"]
   },
@@ -59,6 +60,7 @@
     "sprite": ["txt/nogo"],
     "types": ["property"],
     "color": [[5, 1]],
+    "wobble": true,
     "desc": "NO GO: Can't be entered by objects. Overrides GO AWAY PLS!\nAnti: icyyyy",
     "tags": ["stop"]
   },
