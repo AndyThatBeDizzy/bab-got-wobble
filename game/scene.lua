@@ -994,9 +994,9 @@ function scene.draw(dt)
         end
       else
         local palette = current_palette
-        if current_palette == "default" and unit.wobble then
+        --[[if current_palette == "default" and unit.wobble then
           palette = "baba"
-        end
+        end]]
 				color = {getPaletteColor(color[1], color[2], palette)}
 			end
 
